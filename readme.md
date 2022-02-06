@@ -28,12 +28,12 @@ Zolaで個人的に使うシンプルなテーマ。
 
 ## 基本的な仕様
 
-ドメイン直下、サブディレクトリでも、とりあえず使えるはず。（config.tomlのbaseURLによる）
+ドメイン直下、サブディレクトリでも、とりあえず使えるはず。（config.tomlのbase_urlによる）
 
 - Zola v0.15.2
 - pure.css
 - config.toml
-	- baseURL（最後のスラッシュ無し）
+	- base_url（最後のスラッシュ無し）
 - カテゴリー無し
 - タグ（taxonomies）有効
 	- 日本語のタグ付けは、zolaの仕様で自動的に英数字へ変換される
